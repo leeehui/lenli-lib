@@ -1,0 +1,74 @@
+<FPX Name="ResAdj-SIP483W55P254L953H1000Q3" Version="V2015">
+  <LandPattern Name="ResAdj-SIP483W55P254L953H1000Q3" Units="MM" FAM="None" H="10" D="SIP, 2.54 mm pitch; 3 pin, 9.53 mm L X 4.83 mm W X 10.00 mm H body">
+    <Parameters U="Millimeter" BL="9.53" BLF="0" BW="4.83" BWF="0" BH="10" BS="0" LL="0" TL="0.55" TTL="0" TW="0.55" TTW="0" APW="0" APL="0" NPX="3" NPY="0" PX="2.54" PY="0" GL="0" GW="0" EG="0" P1TW="0" P1TL="0" LP="0" BTL="0" CO="LEFT" TOMS="Horizontal" TOD2="0" TOH="0" />
+    <Text X="2.54" Y="0" SRC="REFDES" V="" H="1.2" W="0.12" R="0" L="T" LT="SS" />
+    <Text X="2.54" Y="0" SRC="REFDES" V="" H="2" W="0.2" R="0" L="T" LT="ASM" />
+    <Text X="2.54" Y="0" SRC="PARTTYPE" V="" H="1.2" W="0.12" R="0" L="T" LT="ASM" />
+    <Rect X="2.54" Y="0" Lth="9.53" H="4.83" LW="0.025" R="0" F="false" L="T" LT="3D" DT="P" />
+    <Circle X="0" Y="0" D="0.5" LW="0.05" F="false" L="T" LT="CY" DT="P" />
+    <Line X="0" Y="0.35" EX="0" EY="-0.35" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Line X="-0.35" Y="0" EX="0.35" EY="0" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Rect X="2.54" Y="0" Lth="9.54" H="4.84" LW="0.12" R="0" F="false" L="T" LT="ASM" DT="P" />
+    <Poly LW="0.05" CL="true" F="false">
+      <Line X="7.56" Y="-2.67" EX="7.56" EY="2.67" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="7.56" Y="2.67" EX="-2.48" EY="2.67" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-2.48" Y="2.67" EX="-2.48" EY="-2.67" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-2.48" Y="-2.67" EX="7.56" EY="-2.67" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="-1.27" Y="-2.42" EX="-2.23" EY="-2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-2.23" Y="-2.42" EX="-2.23" EY="2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-2.23" Y="2.42" EX="-1.27" EY="2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="6.35" Y="-2.42" EX="7.31" EY="-2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="7.31" Y="-2.42" EX="7.31" EY="2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="7.31" Y="2.42" EX="6.35" EY="2.42" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Pin Name="1" SubName="" X="0" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="s120h80">
+        <Hole>
+          <Circle X="0" Y="0" D="0.8" LW="0" F="true" L="A" LT="UNDEFINED" DT="C_P" />
+          <Thermal X="0" Y="0" IS="1.2" OS="1.58" NS="4" SW="0.3" R="45" L="A" LT="E" DT="T" />
+          <Circle X="0" Y="0" D="1.58" LW="0" F="true" L="A" LT="E" DT="A" />
+        </Hole>
+        <Square X="0" Y="0" S="1.2" LW="0" R="90" F="true" L="T" LT="E" DT="P" />
+        <Circle X="0" Y="0" D="1.2" LW="0" F="true" L="I" LT="E" DT="P" />
+        <Square X="0" Y="0" S="1.2" LW="0" R="90" F="true" L="B" LT="E" DT="P" />
+        <Square X="0" Y="0" S="1.2" LW="0" R="90" F="true" L="T" LT="SM" DT="P" />
+        <Square X="0" Y="0" S="1.2" LW="0" R="90" F="true" L="B" LT="SM" DT="P" />
+      </Padstack>
+      <Circle X="0" Y="0" D="0.6" LW="0.025" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="2" SubName="" X="2.54" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="c120h80">
+        <Hole>
+          <Circle X="2.54" Y="0" D="0.8" LW="0" F="true" L="A" LT="UNDEFINED" DT="C_P" />
+          <Thermal X="2.54" Y="0" IS="1.2" OS="1.58" NS="4" SW="0.3" R="45" L="A" LT="E" DT="T" />
+          <Circle X="2.54" Y="0" D="1.58" LW="0" F="true" L="A" LT="E" DT="A" />
+        </Hole>
+        <Circle X="2.54" Y="0" D="1.2" LW="0" F="true" L="T" LT="E" DT="P" />
+        <Circle X="2.54" Y="0" D="1.2" LW="0" F="true" L="I" LT="E" DT="P" />
+        <Circle X="2.54" Y="0" D="1.2" LW="0" F="true" L="B" LT="E" DT="P" />
+        <Circle X="2.54" Y="0" D="1.2" LW="0" F="true" L="T" LT="SM" DT="P" />
+        <Circle X="2.54" Y="0" D="1.2" LW="0" F="true" L="B" LT="SM" DT="P" />
+      </Padstack>
+      <Circle X="2.54" Y="0" D="0.6" LW="0.025" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="3" SubName="" X="5.08" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="c120h80">
+        <Hole>
+          <Circle X="5.08" Y="0" D="0.8" LW="0" F="true" L="A" LT="UNDEFINED" DT="C_P" />
+          <Thermal X="5.08" Y="0" IS="1.2" OS="1.58" NS="4" SW="0.3" R="45" L="A" LT="E" DT="T" />
+          <Circle X="5.08" Y="0" D="1.58" LW="0" F="true" L="A" LT="E" DT="A" />
+        </Hole>
+        <Circle X="5.08" Y="0" D="1.2" LW="0" F="true" L="T" LT="E" DT="P" />
+        <Circle X="5.08" Y="0" D="1.2" LW="0" F="true" L="I" LT="E" DT="P" />
+        <Circle X="5.08" Y="0" D="1.2" LW="0" F="true" L="B" LT="E" DT="P" />
+        <Circle X="5.08" Y="0" D="1.2" LW="0" F="true" L="T" LT="SM" DT="P" />
+        <Circle X="5.08" Y="0" D="1.2" LW="0" F="true" L="B" LT="SM" DT="P" />
+      </Padstack>
+      <Circle X="5.08" Y="0" D="0.6" LW="0.025" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+  </LandPattern>
+</FPX>

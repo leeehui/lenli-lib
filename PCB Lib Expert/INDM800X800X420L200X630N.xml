@@ -1,0 +1,65 @@
+<FPX Name="INDM800X800X420L200X630N" Version="V2015">
+  <LandPattern Name="INDM800X800X420L200X630N" Units="MM" FAM="IND" H="4.2" D="Inductor, Molded Body; 8.00 mm L X 8.00 mm W X 4.20 mm H body">
+    <Parameters U="Millimeter" BL="8" BLF="6.4" BW="8" BWF="6.4" BH="4.2" BS="0" LL="0" TL="2" TTL="8" TW="6.3" TTW="8" APW="0" APL="0" NPX="0" NPY="0" PX="0" PY="0" GL="4" GW="4" EG="0" P1TW="6.3" P1TL="2" LP="0" BTL="0" CO="LEFT" TOMS="Horizontal" TOD2="0" TOH="0" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="2" W="0.2" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="PARTTYPE" V="" H="1.2" W="0.12" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="1.2" W="0.12" R="0" L="T" LT="SS" />
+    <Square X="0" Y="0" S="8" LW="0.025" R="0" F="false" L="T" LT="3D" DT="P" />
+    <Square X="0" Y="0" S="8" LW="0.12" R="0" F="false" L="T" LT="ASM" DT="P" />
+    <Line X="-4" Y="3.385" EX="-4" EY="4" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    <Line X="4" Y="-3.385" EX="4" EY="-4" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    <Circle X="0" Y="0" D="0.5" LW="0.05" F="false" L="T" LT="CY" DT="P" />
+    <Line X="0.35" Y="0" EX="-0.35" EY="0" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Line X="0" Y="0.35" EX="0" EY="-0.35" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="4" Y="-4" EX="-4" EY="-4" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-4" Y="-4" EX="-4" EY="-3.385" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="-4" Y="4" EX="4" EY="4" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="4" Y="4" EX="4" EY="3.385" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.05" CL="true" F="false">
+      <Line X="-4.2" Y="-4.2" EX="4.2" EY="-4.2" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.2" Y="-4.2" EX="4.2" EY="-3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.2" Y="-3.405" EX="4.805" EY="-3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.805" Y="-3.405" EX="4.805" EY="3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.805" Y="3.405" EX="4.2" EY="3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.2" Y="3.405" EX="4.2" EY="4.2" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="4.2" Y="4.2" EX="-4.2" EY="4.2" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-4.2" Y="4.2" EX="-4.2" EY="3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-4.2" Y="3.405" EX="-4.805" EY="3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-4.805" Y="3.405" EX="-4.805" EY="-3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-4.805" Y="-3.405" EX="-4.2" EY="-3.405" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-4.2" Y="-3.405" EX="-4.2" EY="-4.2" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    </Poly>
+    <Pin Name="1" SubName="" X="-3.2" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r281_641r25">
+        <Rect X="-3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="180" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="180" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="180" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="-3" Y="0" Lth="2" H="6.3" LW="0.025" R="180" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="2" SubName="" X="3.2" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r281_641r25">
+        <Rect X="3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="0" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="0" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="3.2" Y="0" Lth="2.81" H="6.41" LW="0" R="0" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="3" Y="0" Lth="2" H="6.3" LW="0.025" R="0" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+  </LandPattern>
+</FPX>

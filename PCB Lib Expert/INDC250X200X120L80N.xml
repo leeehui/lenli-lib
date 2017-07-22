@@ -1,0 +1,44 @@
+<FPX Name="INDC250X200X120L80N" Version="V2015">
+  <LandPattern Name="INDC250X200X120L80N" Units="MM" FAM="IND" H="1.2" D="Inductor, Chip; 2.50 mm L X 2.00 mm W X 1.20 mm H body">
+    <Parameters U="Millimeter" BL="2" BLF="2" BW="2.5" BWF="2" BH="1.2" BS="0" LL="0" TL="0.8" TTL="2.5" TW="2" TTW="2.5" APW="0" APL="0" NPX="0" NPY="0" PX="0" PY="0" GL="0.9" GW="0.9" EG="0" P1TW="2" P1TL="0.8" LP="0" BTL="0" CO="LEFT" TOMS="Horizontal" TOD2="0" TOH="0" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="1.52" W="0.15" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="PARTTYPE" V="" H="1.2" W="0.12" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="1.2" W="0.12" R="0" L="T" LT="SS" />
+    <Rect X="0" Y="0" Lth="2.5" H="2" LW="0.025" R="0" F="false" L="T" LT="3D" DT="P" />
+    <Rect X="0" Y="0" Lth="2.5" H="2" LW="0.12" R="0" F="false" L="T" LT="ASM" DT="P" />
+    <Line X="-0.215" Y="1" EX="0.215" EY="1" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    <Line X="-0.215" Y="-1" EX="0.215" EY="-1" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    <Rect X="0" Y="0" Lth="3.62" H="2.52" LW="0.05" R="0" F="false" L="T" LT="CY" DT="P" />
+    <Circle X="0" Y="0" D="0.5" LW="0.05" F="false" L="T" LT="CY" DT="P" />
+    <Line X="0.35" Y="0" EX="-0.35" EY="0" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Line X="0" Y="0.35" EX="0" EY="-0.35" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Pin Name="1" SubName="" X="-1" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r121_211r25">
+        <Rect X="-1" Y="0" Lth="1.21" H="2.11" LW="0" R="180" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-1" Y="0" Lth="1.21" H="2.11" LW="0" R="180" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-1" Y="0" Lth="1.21" H="2.11" LW="0" R="180" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="-0.85" Y="0" Lth="0.8" H="2" LW="0.025" R="180" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="2" SubName="" X="1" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r121_211r25">
+        <Rect X="1" Y="0" Lth="1.21" H="2.11" LW="0" R="0" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="1" Y="0" Lth="1.21" H="2.11" LW="0" R="0" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="1" Y="0" Lth="1.21" H="2.11" LW="0" R="0" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="0.85" Y="0" Lth="0.8" H="2" LW="0.025" R="0" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+  </LandPattern>
+</FPX>

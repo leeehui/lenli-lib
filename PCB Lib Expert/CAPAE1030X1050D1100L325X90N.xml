@@ -1,0 +1,81 @@
+<FPX Name="CAPAE1030X1050D1100L325X90N" Version="V2015">
+  <LandPattern Name="CAPAE1030X1050D1100L325X90N" Units="MM" FAM="CAP" H="10.5" D="Capacitor, Aluminum Electrolytic; 10.30 mm L X 10.30 mm W X 10.50 mm H body">
+    <Parameters U="Millimeter" BL="10.3" BLF="8.45" BW="10.3" BWF="8.45" BH="10.5" BS="0" LL="0" TL="3.25" TTL="11" TW="0.9" TTW="11" APW="0" APL="0" NPX="0" NPY="0" PX="0" PY="0" GL="0" GW="4.5" EG="0" P1TW="0.9" P1TL="3.25" LP="0" BTL="0" CO="LEFT" TOMS="Horizontal" TOD2="0" TOH="0" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="2" W="0.2" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="PARTTYPE" V="" H="1.2" W="0.12" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="1.2" W="0.12" R="0" L="T" LT="SS" />
+    <Circle X="0" Y="0" D="0.5" LW="0.05" F="false" L="T" LT="CY" DT="P" />
+    <Line X="0.35" Y="0" EX="-0.35" EY="0" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Line X="0" Y="0.35" EX="0" EY="-0.35" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Poly LW="0.025" CL="true" F="false">
+      <Line X="5.15" Y="5.15" EX="5.15" EY="-5.15" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+      <Line X="5.15" Y="-5.15" EX="-3.09" EY="-5.15" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+      <Line X="-3.09" Y="-5.15" EX="-5.15" EY="-3.09" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+      <Line X="-5.15" Y="-3.09" EX="-5.15" EY="3.09" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+      <Line X="-5.15" Y="3.09" EX="-3.09" EY="5.15" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+      <Line X="-3.09" Y="5.15" EX="5.15" EY="5.15" LW="0.025" R="0" L="T" LT="3D" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="true" F="false">
+      <Line X="5.15" Y="5.15" EX="5.15" EY="-5.15" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+      <Line X="5.15" Y="-5.15" EX="-3.09" EY="-5.15" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+      <Line X="-3.09" Y="-5.15" EX="-5.15" EY="-3.09" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+      <Line X="-5.15" Y="-3.09" EX="-5.15" EY="3.09" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+      <Line X="-5.15" Y="3.09" EX="-3.09" EY="5.15" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+      <Line X="-3.09" Y="5.15" EX="5.15" EY="5.15" LW="0.12" R="0" L="T" LT="ASM" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="5.15" Y="1.24" EX="5.15" EY="5.15" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="5.15" Y="5.15" EX="-3.09" EY="5.15" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-3.09" Y="5.15" EX="-5.15" EY="3.09" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-5.15" Y="3.09" EX="-5.15" EY="1.24" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="5.15" Y="-1.24" EX="5.15" EY="-5.15" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="5.15" Y="-5.15" EX="-3.09" EY="-5.15" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-3.09" Y="-5.15" EX="-5.15" EY="-3.09" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-5.15" Y="-3.09" EX="-5.15" EY="-1.24" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.05" CL="true" F="false">
+      <Line X="-5.55" Y="-5.55" EX="5.55" EY="-5.55" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.55" Y="-5.55" EX="5.55" EY="-1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.55" Y="-1.46" EX="6.655" EY="-1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="6.655" Y="-1.46" EX="6.655" EY="1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="6.655" Y="1.46" EX="5.55" EY="1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.55" Y="1.46" EX="5.55" EY="5.55" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.55" Y="5.55" EX="-5.55" EY="5.55" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.55" Y="5.55" EX="-5.55" EY="1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.55" Y="1.46" EX="-6.655" EY="1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-6.655" Y="1.46" EX="-6.655" EY="-1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-6.655" Y="-1.46" EX="-5.55" EY="-1.46" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.55" Y="-1.46" EX="-5.55" EY="-5.55" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    </Poly>
+    <Pin Name="1" SubName="" X="-4.225" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r406_212r25">
+        <Rect X="-4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="180" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="180" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="-4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="180" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="-3.875" Y="0" Lth="3.25" H="0.9" LW="0.025" R="180" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="2" SubName="" X="4.225" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r406_212r25">
+        <Rect X="4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="0" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="0" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+        <Rect X="4.225" Y="0" Lth="4.06" H="2.12" LW="0" R="0" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.25" />
+        </Rect>
+      </Padstack>
+      <Rect X="3.875" Y="0" Lth="3.25" H="0.9" LW="0.025" R="0" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+  </LandPattern>
+</FPX>

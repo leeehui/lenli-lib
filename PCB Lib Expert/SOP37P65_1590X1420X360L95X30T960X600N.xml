@@ -1,0 +1,585 @@
+<FPX Name="SOP37P65_1590X1420X360L95X30T960X600N" Version="V2015">
+  <LandPattern Name="SOP37P65_1590X1420X360L95X30T960X600N" Units="MM" FAM="SOP" H="3.6" D="Small Outline Pkg (SOP with Tab), 0.65 mm pitch; 36 pin, 15.90 mm L X 11.00 mm W X 3.60 mm H body">
+    <Parameters U="Millimeter" BL="15.9" BLF="13.12" BW="11" BWF="13.12" BH="3.5" BS="0.1" LL="0" TL="0.95" TTL="14.2" TW="0.3" TTW="14.2" APW="0" APL="0" NPX="18" NPY="0" PX="0.65" PY="0" GL="12.3" GW="12.3" EG="0" P1TW="0.3" P1TL="0.95" LP="0" BTL="9.6" CO="LEFT" TOMS="Horizontal" TOD2="0" TOH="0" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="2" W="0.2" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="PARTTYPE" V="" H="1.2" W="0.12" R="0" L="T" LT="ASM" />
+    <Text X="0" Y="0" SRC="REFDES" V="" H="1.2" W="0.12" R="0" L="T" LT="SS" />
+    <Rect X="0" Y="0" Lth="15.9" H="11" LW="0.025" R="0" F="false" L="T" LT="3D" DT="P" />
+    <Circle X="0" Y="0" D="0.5" LW="0.05" F="false" L="T" LT="CY" DT="P" />
+    <Line X="0" Y="0.35" EX="0" EY="-0.35" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Line X="-0.35" Y="0" EX="0.35" EY="0" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    <Rect X="0" Y="0" Lth="16" H="11.1" LW="0.12" R="0" F="false" L="T" LT="ASM" DT="P" />
+    <Poly LW="0.05" CL="true" F="false">
+      <Line X="8.2" Y="-5.75" EX="8.2" EY="5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="8.2" Y="5.75" EX="5.955" EY="5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.955" Y="5.75" EX="5.955" EY="7.655" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.955" Y="7.655" EX="-5.955" EY="7.655" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.955" Y="7.655" EX="-5.955" EY="5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.955" Y="5.75" EX="-8.2" EY="5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-8.2" Y="5.75" EX="-8.2" EY="-5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-8.2" Y="-5.75" EX="-5.955" EY="-5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.955" Y="-5.75" EX="-5.955" EY="-7.655" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="-5.955" Y="-7.655" EX="5.955" EY="-7.655" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.955" Y="-7.655" EX="5.955" EY="-5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+      <Line X="5.955" Y="-5.75" EX="8.2" EY="-5.75" LW="0.05" R="0" L="T" LT="CY" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="5.935" Y="-5.55" EX="8" EY="-5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="8" Y="-5.55" EX="8" EY="5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="8" Y="5.55" EX="5.935" EY="5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Poly LW="0.12" CL="false" F="false">
+      <Line X="-5.935" Y="-5.55" EX="-8" EY="-5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-8" Y="-5.55" EX="-8" EY="5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+      <Line X="-8" Y="5.55" EX="-5.935" EY="5.55" LW="0.12" R="0" L="T" LT="SS" DT="P" />
+    </Poly>
+    <Pin Name="1" SubName="" X="-5.525" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-5.525" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="2" SubName="" X="-4.875" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-4.875" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="3" SubName="" X="-4.225" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-4.225" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="4" SubName="" X="-3.575" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-3.575" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="5" SubName="" X="-2.925" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-2.925" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="6" SubName="" X="-2.275" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-2.275" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="7" SubName="" X="-1.625" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-1.625" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="8" SubName="" X="-0.975" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-0.975" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="9" SubName="" X="-0.325" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-0.325" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="10" SubName="" X="0.325" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.325" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="0.325" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="11" SubName="" X="0.975" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.975" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="0.975" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="12" SubName="" X="1.625" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="1.625" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="1.625" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="13" SubName="" X="2.275" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.275" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="2.275" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="14" SubName="" X="2.925" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.925" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="2.925" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="15" SubName="" X="3.575" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="3.575" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="3.575" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="16" SubName="" X="4.225" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.225" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="4.225" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="17" SubName="" X="4.875" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.875" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="4.875" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="18" SubName="" X="5.525" Y="-6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="5.525" Y="-6.56" Lth="1.79" H="0.46" LW="0" R="270" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="5.525" Y="-6.625" Lth="0.95" H="0.3" LW="0.025" R="270" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="19" SubName="" X="5.525" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="5.525" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="20" SubName="" X="4.875" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="4.875" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="21" SubName="" X="4.225" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="4.225" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="22" SubName="" X="3.575" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="3.575" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="23" SubName="" X="2.925" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="2.925" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="24" SubName="" X="2.275" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="2.275" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="25" SubName="" X="1.625" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="1.625" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="26" SubName="" X="0.975" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="0.975" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="27" SubName="" X="0.325" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="0.325" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="28" SubName="" X="-0.325" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.325" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-0.325" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="29" SubName="" X="-0.975" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-0.975" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-0.975" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="30" SubName="" X="-1.625" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-1.625" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-1.625" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="31" SubName="" X="-2.275" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.275" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-2.275" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="32" SubName="" X="-2.925" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-2.925" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-2.925" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="33" SubName="" X="-3.575" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-3.575" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-3.575" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="34" SubName="" X="-4.225" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.225" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-4.225" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="35" SubName="" X="-4.875" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-4.875" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-4.875" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="36" SubName="" X="-5.525" Y="6.56" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="r179_46r12">
+        <Rect X="-5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+        <Rect X="-5.525" Y="6.56" Lth="1.79" H="0.46" LW="0" R="90" F="true" L="T" LT="PM" DT="P">
+          <Corner Type="All" Style="Round" Length="0.12" />
+        </Rect>
+      </Padstack>
+      <Rect X="-5.525" Y="6.625" Lth="0.95" H="0.3" LW="0.025" R="90" F="false" L="T" LT="TERMINAL" DT="P" />
+    </Pin>
+    <Pin Name="37" SubName="" X="0" Y="0" Net="UNCONNECTED" Type="ELECTRICAL">
+      <Padstack Name="u600_960p18xr129_124r50cul100">
+        <Rect X="0" Y="0" Lth="6" H="9.6" LW="0" R="90" F="true" L="T" LT="E" DT="P">
+          <Corner Type="LowerLeft" Style="Round" Length="0.5" />
+          <Corner Type="LowerRight" Style="Round" Length="0.5" />
+          <Corner Type="UpperLeft" Style="Chamfer" Length="1" />
+          <Corner Type="UpperRight" Style="Round" Length="0.5" />
+        </Rect>
+        <Rect X="0" Y="0" Lth="6" H="9.6" LW="0" R="90" F="true" L="T" LT="SM" DT="P">
+          <Corner Type="LowerLeft" Style="Round" Length="0.5" />
+          <Corner Type="LowerRight" Style="Round" Length="0.5" />
+          <Corner Type="UpperLeft" Style="Chamfer" Length="1" />
+          <Corner Type="UpperRight" Style="Round" Length="0.5" />
+        </Rect>
+      </Padstack>
+      <Rect X="3.9994" Y="-1.99973" Lth="1.28946" H="1.2388" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="4" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="3.9994" Y="2.64446" Lth="0.00054" H="1.2388" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="2.4" Y="-2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="2.4" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="2.4" Y="2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="0.8" Y="-2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="0.8" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="0.8" Y="2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-0.8" Y="-2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-0.8" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-0.8" Y="2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-2.4" Y="-2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-2.4" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-2.4" Y="2" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-3.869865" Y="-1.897635" Lth="1.08527" H="0.97973" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-4" Y="0" Lth="1.29" H="1.24" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Rect X="-3.9994" Y="1.99973" Lth="1.28946" H="1.2388" LW="0" R="90" F="true" L="T" LT="PM" DT="P" />
+      <Poly LW="0.025" CL="true" F="false">
+        <Line X="-3.8" Y="-3" EX="4.3" EY="-3" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Arc X="4.3" Y="-3" EX="4.8" EY="-2.5" CX="4.3" CY="-2.5" D="1" SA="270" SWP="90" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Line X="4.8" Y="-2.5" EX="4.8" EY="2.5" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Arc X="4.8" Y="2.5" EX="4.3" EY="3" CX="4.3" CY="2.5" D="1" SA="0" SWP="90" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Line X="4.3" Y="3" EX="-4.3" EY="3" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Arc X="-4.3" Y="3" EX="-4.8" EY="2.5" CX="-4.3" CY="2.5" D="1" SA="90" SWP="90" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Line X="-4.8" Y="2.5" EX="-4.8" EY="-2" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+        <Line X="-4.8" Y="-2" EX="-3.8" EY="-3" LW="0.025" R="0" L="T" LT="TERMINAL" DT="P" />
+      </Poly>
+    </Pin>
+  </LandPattern>
+</FPX>
